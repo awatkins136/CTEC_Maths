@@ -11,6 +11,7 @@ int main()
 	scanf("%c", &c);
 	switch (c) {
 	case 'a':
+		i=j+k;
 		printf("%i\n", i);
 		break;
 	case 's':
