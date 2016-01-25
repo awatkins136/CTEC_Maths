@@ -12,5 +12,8 @@ int main(int argc, char *argv[])
 	case s:
 		printf("%i\n", argv[1] - argv[2]);
 		break;
+	case m:
+		printf("%i\n", argv[1] * argv[2]);
+		break;
 		
 }
