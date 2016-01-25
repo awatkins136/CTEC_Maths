@@ -15,6 +15,7 @@ int main()
 		printf("%i\n", i);
 		break;
 	case 's':
+		i=j-k;
 		printf("%i\n", i);
 		break;
 	case 'm':
