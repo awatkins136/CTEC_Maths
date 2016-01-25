@@ -23,6 +23,7 @@ int main()
 		printf("%i\n", i);
 		break;
 	case 'd':
+		i=j/k;
 		printf("%i\n", i);
 		break;
 	default:
