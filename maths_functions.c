@@ -2,31 +2,31 @@
 
 int main()
 {
-	char c;
-	int i, j, k;
+	int i, j, k, l;
 	printf("Type two integer values:\n");
 	scanf("%i", &j);
 	scanf("%i", &k);
-	printf("Choose a function from add (a), subtract (s), multiply(m) or divide (d)\n");
-	scanf("%c", &c);
-	switch (c) {
-	case 'a':
+	printf("Choose a function from add (1), subtract (2), multiply(3) or divide (4):\n");
+	scanf("%i", &l);
+	switch (l) {
+	case 1:
 		i=j+k;
 		printf("%i\n", i);
 		break;
-	case 's':
+	case 2:
 		i=j-k;
 		printf("%i\n", i);
 		break;
-	case 'm':
+	case 3:
 		i=j*k;
 		printf("%i\n", i);
 		break;
-	case 'd':
+	case 4:
 		i=j/k;
 		printf("%i\n", i);
 		break;
 	default:
+		printf("Exiting switch statement\n");
 		break;
 	}
 	return 0;
