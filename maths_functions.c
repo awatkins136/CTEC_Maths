@@ -6,7 +6,7 @@ int main()
 	printf("Type two integer values:\n");
 	scanf("%i", &j);
 	scanf("%i", &k);
-	printf("Choose a function from add (1), subtract (2), multiply(3) or divide (4):\n");
+	printf("Choose 1 function from add (1), subtract (2), multiply(3) or divide (4):\n");
 	scanf("%i", &l);
 	switch (l) {
 	case 1:
