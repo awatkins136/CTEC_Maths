@@ -19,6 +19,7 @@ int main()
 		printf("%i\n", i);
 		break;
 	case 'm':
+		i=j*k;
 		printf("%i\n", i);
 		break;
 	case 'd':
