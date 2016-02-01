@@ -6,8 +6,25 @@ int maxmin();
 
 int main()
 {
+	int i;
+	printf("Choose a program from simple functions (1) or max and min (2)\n");
+	scanf("%i", &i);
+	switch (i) {
+	case 1:
+		functions();
+		break;
+	case 2:
+		maxmin();
+		break;
+	default:
+		break;
+	}
+	return 0;
+}
+
+int functions()
+{
 	int i, j, k, l;
-	printf("Choose a program from simple functions (1) or 
 	printf("Type two integer values:\n");
 	scanf("%i", &j);
 	scanf("%i", &k);
@@ -39,11 +56,6 @@ int main()
 		break;
 	}
 	return 0;
-}
-
-int functions()
-{
-	
 }
 
 int maxmin()
