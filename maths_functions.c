@@ -1,9 +1,13 @@
 //This is the line causing issue in the conflict branch
 #include <stdio.h>
 
+int functions();
+int maxmin();
+
 int main()
 {
 	int i, j, k, l;
+	printf("Choose a program from simple functions (1) or 
 	printf("Type two integer values:\n");
 	scanf("%i", &j);
 	scanf("%i", &k);
@@ -35,4 +39,14 @@ int main()
 		break;
 	}
 	return 0;
+}
+
+int functions()
+{
+	
+}
+
+int maxmin()
+{
+	
 }
