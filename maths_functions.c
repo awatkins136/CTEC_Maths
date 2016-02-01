@@ -60,5 +60,18 @@ int functions()
 
 int maxmin()
 {
+	int num, max, min;
+	printf("Type 5 integer values:\n");
+	scanf("%i", &num);
+	max = min = num;
 	
+	for (int i = 0;i<4;i++)
+	{
+		scanf("%i", &num);
+		if (max < num)
+			max = num;
+		else if (min > num)
+			min = num;
+	}
+	printf("The max integer is %i and the minimum is %i\n", max, min);
 }
