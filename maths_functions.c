@@ -60,12 +60,12 @@ int functions()
 
 int maxmin()
 {
-	int num, max, min;
+	int num, max, min, i;
 	printf("Type 5 integer values:\n");
 	scanf("%i", &num);
 	max = min = num;
 	
-	for (int i = 0;i<4;i++)
+	for (i = 0;i<4;i++)
 	{
 		scanf("%i", &num);
 		if (max < num)
